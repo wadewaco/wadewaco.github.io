@@ -4,84 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>La carte c'est pas l'terrain – Wade Waco & Blue Morgan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Patrick+Hand&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background-color: #EFE6CF;
-      background-image: radial-gradient(rgba(0,0,0,0.06) 1px, transparent 1px);
-      background-size: 4px 4px;
-      color: #111;
-      font-family: 'Patrick Hand', sans-serif;
-      display: flex;
-      justify-content: center;
-      padding: 40px 20px;
-      box-sizing: border-box;
-    }
-    main { max-width: 420px; width: 100%; }
-    h1 {
-      font-family: 'Luckiest Guy', sans-serif;
-      font-size: 2.6em;
-      line-height: 1;
-      margin: 0;
-      text-transform: uppercase;
-      transform: rotate(-2deg);
-    }
-    h2 {
-      font-family: 'Luckiest Guy', sans-serif;
-      font-size: 1.3em;
-      margin: 10px 0 36px;
-      text-transform: uppercase;
-    }
-    .liens { list-style: none; padding: 0; margin: 0; }
-    .liens li { margin: 18px 0; }
-    .liens a {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      color: #111;
-      text-decoration: none;
-      font-family: 'Luckiest Guy', sans-serif;
-      font-size: 1.35em;
-      text-transform: uppercase;
-    }
-    .pastille {
-      flex: none;
-      width: 34px;
-      height: 34px;
-      border-radius: 50%;
-      border: 4px solid #111;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8em;
-    }
-    .liens a:hover { transform: translateX(6px); }
-    .bleu { background: #2E3F9E; }
-    .vert { background: #2E8B3A; }
-    .orange { background: #E8603C; }
-    .violet { background: #A23BB8; }
-    footer { margin-top: 44px; font-size: 1.1em; }
+    body { margin: 0; background: #2f7f9c; }
+    .page { position: relative; max-width: 540px; margin: 0 auto; }
+    .page img { display: block; width: 100%; height: auto; }
+    .page a { position: absolute; width: 16%; height: 9.5%; border-radius: 50%; }
   </style>
 </head>
 <body>
-  <main>
-    <h1>La carte<br>c'est pas<br>l'terrain</h1>
-    <h2>Wade Waco<br>Blue Morgan</h2>
-
-    <ul class="liens">
-      <li><a href="https://open.spotify.com/artist/2fdTVD4arX9wjMXN8WGCHq"><span class="pastille vert">1</span>Spotify</a></li>
-      <li><a href="https://music.apple.com/artist/wade-waco/1747366577"><span class="pastille violet">2</span>Apple Music</a></li>
-      <li><a href="https://www.youtube.com/@Wade_Waco"><span class="pastille orange">3</span>YouTube</a></li>
-      <li><a href="https://tidal.com/artist/47915943"><span class="pastille" style="background:#C9B92C">4</span>Tidal</a></li>
-      <li><a href="https://www.deezer.com/artist/266574372"><span class="pastille" style="background:#2BA6C9">5</span>Deezer</a></li>
-      <li><a href="https://www.amazon.com/music/player/artists/B0D4P4Y9CW/wade-waco"><span class="pastille" style="background:#E8A23C">6</span>Amazon Music</a></li>
-      <li><a href="https://www.instagram.com/wade.waco/"><span class="pastille bleu">7</span>Instagram</a></li>
-    </ul>
-
-    <footer>(2026) Pali Gap Records</footer>
-  </main>
+  <div class="page">
+    <img src="page.png" alt="La carte c'est pas l'terrain – Wade Waco & Blue Morgan">
+    <a href="https://www.youtube.com/@Wade_Waco" style="left:6.7%; top:68.5%" aria-label="YouTube"></a>
+    <a href="https://music.apple.com/artist/wade-waco/1747366577" style="left:30.6%; top:68.5%" aria-label="Apple Music"></a>
+    <a href="https://open.spotify.com/artist/2fdTVD4arX9wjMXN8WGCHq" style="left:53.9%; top:68.5%" aria-label="Spotify"></a>
+    <a href="https://www.deezer.com/artist/266574372" style="left:76%; top:68.5%" aria-label="Deezer"></a>
+    <a href="https://www.amazon.com/music/player/artists/B0D4P4Y9CW/wade-waco" style="left:18.4%; top:81.3%" aria-label="Amazon Music"></a>
+    <a href="https://tidal.com/artist/47915943" style="left:65%; top:81.3%" aria-label="Tidal"></a>
+  </div>
 </body>
 </html>
